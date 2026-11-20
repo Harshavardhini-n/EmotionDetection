@@ -1,0 +1,22 @@
+
+## 6. `.gitignore`
+
+```gitignore
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+
+# Training data
+dataset/
+
+# Generated model
+models/*.h5
+models/*.keras
+
+# Logs
+logs/
